@@ -1,5 +1,5 @@
-#音沐
-##介绍
+# 音沐
+## 介绍
 	1. 使用vue框架做了一个手机端音乐播放器项目,详细页面及其跳转都可以实现
 	2. 完全可以以游客的身份进行登录
 ## 使用
@@ -22,51 +22,14 @@
     "vue-awesome-swiper": "^2.6.7",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
-  },
-  "devDependencies": {
-    "autoprefixer": "^7.1.2",
-    "babel-core": "^6.22.1",
-    "babel-loader": "^7.1.1",
-    "babel-plugin-component": "^0.10.1",
-    "babel-plugin-transform-runtime": "^6.22.0",
-    "babel-preset-env": "^1.3.2",
-    "babel-preset-stage-2": "^6.22.0",
-    "babel-register": "^6.22.0",
-    "chalk": "^2.0.1",
-    "copy-webpack-plugin": "^4.0.1",
-    "css-loader": "^0.28.0",
-    "eventsource-polyfill": "^0.9.6",
-    "extract-text-webpack-plugin": "^3.0.0",
-    "file-loader": "^1.1.4",
-    "friendly-errors-webpack-plugin": "^1.6.1",
-    "html-webpack-plugin": "^2.30.1",
-    "node-notifier": "^5.1.2",
-    "node-sass": "^4.7.2",
-    "optimize-css-assets-webpack-plugin": "^3.2.0",
-    "ora": "^1.2.0",
-    "portfinder": "^1.0.13",
-    "postcss-import": "^11.0.0",
-    "postcss-loader": "^2.0.8",
-    "rimraf": "^2.6.0",
-    "scss-loader": "^0.0.1",
-    "semver": "^5.3.0",
-    "shelljs": "^0.7.6",
-    "url-loader": "^0.5.8",
-    "vue-loader": "^13.3.0",
-    "vue-style-loader": "^3.0.1",
-    "vue-template-compiler": "^2.5.2",
-    "webpack": "^3.6.0",
-    "webpack-bundle-analyzer": "^2.9.0",
-    "webpack-dev-server": "^2.9.1",
-    "webpack-merge": "^4.1.0"
   }`
-  ##主要技术
-  	###前端css部分
+  ## 主要技术
+  	### 前端css部分
   	1. element 插件折叠面板的应用，
   	2. Mint-UI Tab切换
   		遇到的问题就是插件改样式的问题，解决方法就是新建一个scss文件，引入到main.js中，就可以改变插件中的样式(我觉得这是目前最好的解决方案)
-  	###前后端数据交互部分
+  	### 前后端数据交互部分
   	1. axios网络请求数据，与后台数据进行交互
   	2. 登录注册与数据库的交互，进行增删改查
   	3. vue数据之间得到传递父传子，子传父，以及无关系的组件之间数据的传递(vuex)
-  	4.音乐播放部分
+  	4. 音乐播放部分
